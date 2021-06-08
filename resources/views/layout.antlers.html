@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title ?? site:name }}</title>
+    <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ mix src='css/main.css' }}">
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal text-grey-800">
+  <header>
+    <div class="w-full py-4 px-5">
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <svg class="w-32" width="100%" height="100%" viewBox="0 0 84 9" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xml:space="preserve" xmlns:serif="http://www.serif.com/"
+            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+            <g transform="matrix(1,0,0,1,-408.618,-222.039)">
+              <text x="407.778px" y="230.607px"style="font-family:'Montserrat-ExtraBold', 'Montserrat';font-weight:800;font-size:12px;">P
+                  <tspan x="418.888px 431.305px 440.891px 449.625px 459.846px 470.788px 483.205px "
+                      y="230.607px 230.607px 230.607px 230.607px 230.607px 230.607px 230.607px ">OLLYCON
+                  </tspan>
+              </text>
+            </g>
+          </svg>
+        </div>
+        <div>
+          mobile
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    {{ template_content }}
+  </main>
+  <script src="{{ mix src='/js/site.js' }}"></script>
+</body>
+
+</html>
