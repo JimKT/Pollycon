@@ -1,19 +1,25 @@
-<div class="grid grid-cols-2 mx-5 relative h-screen">
-    <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-        <h1 class="hero__h1 font-bold font-sans uppercase leading-none">Pol<br>lycon<span class="text-primary">.</span></h1>
-    </div>
-	<div class="bg-primary flex items-center content-center">
-		<p>1</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 mx-7 relative h-screen">
+	<div class="absolute top-0 left-0 w-full h-1/2 md:h-full flex items-center justify-center">
+			<h1 class="hero__h1 font-bold font-sans uppercase leading-none">ALLTHI<br>INGSWEB<span class="text-white md:text-primary">.</span></h1>
 	</div>
-	<div>2</div>
+	<div class="bg-primary flex items-center content-center">
+		<div id="menuButton" class="burger-menu burger-menu--closed -ml-3 cursor-pointer">
+			<div class="bar"></div>
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+		<span class="menu--button text-black uppercase transform -rotate-90 relative -top-1 translate-x-0 hover:translate-x-1 transition duration-500 ease-in-out cursor-pointer">Menu</span>
+	</div>
+	<div></div>
 </div>
 <div class="pb-16 text-center">
-    <a href="https://statamic.com">
-        
-    </a>
-    <div class="text-xs font-bold uppercase text-gray-500 space-x-3 hidden">
-        <a class="hover:bg-gray-200 p-2 rounded text-blue-400" href="{{ cp_url }}">Admin Panel</a>
-        <a class="hover:bg-gray-200 p-2 rounded text-blue-400" href="https://statamic.dev" target="_blank" rel="noopener noreferrer">Documentation</a>
-        <a class="hover:bg-gray-200 p-2 rounded text-blue-400" href="https://statamic.com/support" rel="noopener noreferrer">Get Support</a>
-    </div>
+	<a href="https://statamic.com">
+			
+	</a>
+	<div class="text-xs font-bold uppercase text-gray-500 space-x-3 hidden">
+		<a class="hover:bg-gray-200 p-2 rounded text-blue-400" href="{{ cp_url }}">Admin Panel</a>
+		<a class="hover:bg-gray-200 p-2 rounded text-blue-400" href="https://statamic.dev" target="_blank" rel="noopener noreferrer">Documentation</a>
+		<a class="hover:bg-gray-200 p-2 rounded text-blue-400" href="https://statamic.com/support" rel="noopener noreferrer">Get Support</a>
+	</div>
 </div>

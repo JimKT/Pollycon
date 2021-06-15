@@ -17,6 +17,11 @@
             colors: {
                 primary: 'var(--color-primary)',
                 secondary: 'var(--color-secondary)',
+                green: {
+                  light: 'var(--color-primary-light)',
+                  DEFAULT: 'var(--color-primary)',
+                  dark: 'var(--color-primary-dark)',
+                },
             },
             width: {
                 '72': '18rem',
@@ -48,7 +53,7 @@
             // 'headings-alt': 'LOUDCompressedLight, sans-serif'
         },
         fontSize: {
-            xs: ['1rem', '1.5'],
+            xs: ['0.4rem', '1.5'],
             sm: ['1.2rem', '1.5'],
             base: ['1.3rem', '1.5'],
             lg: ['1.6rem', '1.5'],
@@ -62,3 +67,4 @@
     variants: {},
     plugins: []
 }
+ 

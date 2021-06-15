@@ -13,8 +13,9 @@
 </head>
 
 <body class="bg-gray-100 font-sans leading-normal text-grey-800">
+  
   <header>
-    <div class="w-full py-4 px-5">
+    <div class="w-full py-4 mx-7">
       <div class="grid grid-cols-2 gap-4">
         <div>
           <svg class="w-32" width="100%" height="100%" viewBox="0 0 84 9" version="1.1"
@@ -31,11 +32,18 @@
           </svg>
         </div>
         <div>
-          mobile
         </div>
       </div>
     </div>
   </header>
+  <section id="menuView" class="fixed top-0 left-0 opacity-0 w-full h-full transform transition ease-in-out duration-500 grid grid-cols-1 md:grid-cols-2">
+    <div id="menuLeft" class="flex items-center justify-center bg-primary relative transform translate-y-full transition ease-in-out duration-500 ">
+      test
+    </div>
+    <div id="menuRight" class="flex items-center justify-center bg-green-dark relative transform -translate-y-full transition ease-in-out duration-500 ">
+      test
+    </div>
+  </section>
   <main>
     {{ template_content }}
   </main>
